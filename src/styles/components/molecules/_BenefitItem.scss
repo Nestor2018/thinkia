@@ -1,0 +1,26 @@
+@import "../../abstracts/_variables.scss";
+
+.benefit-item {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  flex: 1;
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  @media (max-width: 768px) {
+    min-width: 120px;
+    padding: 1rem 0.5rem;
+  }
+
+  &__icon {
+    font-size: 60px;
+    color: $primary-color;
+
+    @media (max-width: 768px) {
+      font-size: 40px;
+    }
+  }
+}

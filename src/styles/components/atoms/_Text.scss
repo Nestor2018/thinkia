@@ -1,0 +1,121 @@
+@import "../../abstracts/_variables.scss";
+
+.text {
+  &--default {
+    color: $text-color;
+  }
+
+  &--primary {
+    color: $primary-color;
+  }
+
+  &--secondary {
+    color: $white-color;
+  }
+
+  &--footer {
+    color: $footer-color;
+  }
+
+  &--footer-gray {
+    color: $footer-gray;
+  }
+
+  &--gray {
+    color: $gray-color;
+  }
+
+  &--level-1 {
+    font-size: 32px;
+    line-height: 38px;
+
+    @media (min-width: 768px) {
+      font-size: 46px;
+      line-height: 52px;
+    }
+  }
+
+  &--level-2 {
+    font-size: 32px;
+
+    @media (min-width: 768px) {
+      font-size: 44px;
+    }
+  }
+
+  &--level-3 {
+    font-size: 24px;
+
+    @media (min-width: 768px) {
+      font-size: 32px;
+    }
+  }
+
+  &--level-4 {
+    font-size: 18px;
+    line-height: 24px;
+
+    @media (min-width: 768px) {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  &--level-5 {
+    font-size: 16px;
+    line-height: 22px;
+
+    @media (min-width: 768px) {
+      font-size: 19px;
+      line-height: 24px;
+    }
+  }
+
+  &--level-6 {
+    font-size: 14px;
+
+    @media (min-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
+  &--level-7 {
+    font-size: 12px;
+
+    @media (min-width: 768px) {
+      font-size: 14px;
+    }
+  }
+
+  &--level-8 {
+    font-size: 24px;
+
+    @media (min-width: 768px) {
+      font-size: 30.5px;
+    }
+  }
+
+  &--dm-sans {
+    font-family: $font-dm-sans;
+  }
+
+  &--poppins {
+    font-family: $font-poppins;
+  }
+
+  &--bold {
+    font-weight: 700;
+  }
+
+  &--600 {
+    font-weight: 600;
+  }
+
+  &--normal {
+    font-weight: 500;
+  }
+
+  &--400 {
+    font-weight: 400;
+  }
+}

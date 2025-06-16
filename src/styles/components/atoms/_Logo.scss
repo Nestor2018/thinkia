@@ -1,0 +1,19 @@
+.logo {
+  width: 90px;
+  height: 52px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+
+  @media (min-width: 768px) {
+    width: 120.71px;
+    height: 69.27px;
+    margin-bottom: 111.63px;
+    margin-left: 15px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
