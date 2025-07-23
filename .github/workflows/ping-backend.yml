@@ -1,0 +1,13 @@
+name: Ping Kleen Backend
+
+on:
+  schedule:
+    - cron: "*/10 * * * *" # cada 10 minutos
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hacer ping al backend de Kleen
+        run: curl -s https://back-kleen.onrender.com/api/trabaja > /dev/null
